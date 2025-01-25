@@ -1,0 +1,84 @@
+[colors]
+foreground = "#FFFDEB"
+background = "#343A41"
+cursor_bg = "#FFAACA"
+cursor_border = "#FFAACA"
+cursor_fg = "#343A41"
+selection_bg = "#282D32"
+# selection_fg = "#343A41"
+
+ansi = [
+    "#343A41",
+    "#B1768C",
+    "#8CB176",
+    "#B19B76",
+    "#768CB1",
+    "#9B76B1",
+    "#76B19B",
+    "#C2C3B8",
+]
+
+brights = [
+    "#5A6571",
+    "#FFAACA",
+    "#CAFFAA",
+    "#FFDFAA",
+    "#AACAFF",
+    "#DFAAFF",
+    "#AAFFDF",
+    "#FFFDEB",
+]
+
+scrollbar_thumb = '#1F1D21'
+split = '#C2C3B8'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#343A41'
+inactive_tab_edge = '#1F1D21'
+
+[colors.tab_bar.active_tab]
+bg_color = '#B1768C'
+fg_color = '#343A41'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#343A41'
+fg_color = '#C2C3B8'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#FFDFAA'
+fg_color = '#343A41'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#343A41'
+fg_color = '#C2C3B8'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#FFDFAA'
+fg_color = '#343A41'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+# [metadata]
+# aliases = []
+# author = 'AEva'
+# name = 'oneiroi dream'
