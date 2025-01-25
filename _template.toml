@@ -1,0 +1,84 @@
+[colors]
+foreground = "{{fg}}"
+background = "{{bg}}"
+cursor_bg = "{{prim}}"
+cursor_border = "{{prim}}"
+cursor_fg = "{{bg}}"
+selection_bg = "{{sel}}"
+# selection_fg = "{{bg}}"
+
+ansi = [
+    "{{bg}}",
+    "{{reds}}",
+    "{{gres}}",
+    "{{yels}}",
+    "{{blus}}",
+    "{{purs}}",
+    "{{aqus}}",
+    "{{fgs}}",
+]
+
+brights = [
+    "{{bgs}}",
+    "{{red}}",
+    "{{gre}}",
+    "{{yel}}",
+    "{{blu}}",
+    "{{pur}}",
+    "{{aqu}}",
+    "{{fg}}",
+]
+
+scrollbar_thumb = '{{bg3}}'
+split = '{{fgs}}'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '{{bg}}'
+inactive_tab_edge = '{{bg3}}'
+
+[colors.tab_bar.active_tab]
+bg_color = '{{prims}}'
+fg_color = '{{bg}}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '{{bg}}'
+fg_color = '{{fgs}}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '{{seco}}'
+fg_color = '{{bg}}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '{{bg}}'
+fg_color = '{{fgs}}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '{{seco}}'
+fg_color = '{{bg}}'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+# [metadata]
+# aliases = []
+# author = 'AEva'
+# name = 'oneiroi {{name}}'

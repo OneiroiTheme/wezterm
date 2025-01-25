@@ -1,0 +1,84 @@
+[colors]
+foreground = "#FFFDEB"
+background = "#1A1B32"
+cursor_bg = "#FB6BB0"
+cursor_border = "#FB6BB0"
+cursor_fg = "#1A1B32"
+selection_bg = "#121323"
+# selection_fg = "#1A1B32"
+
+ansi = [
+    "#1A1B32",
+    "#CD5790",
+    "#90CD57",
+    "#CD9457",
+    "#5790CD",
+    "#9457CD",
+    "#57CD94",
+    "#BAB9B3",
+]
+
+brights = [
+    "#2E3059",
+    "#FB6BB0",
+    "#B0FB6B",
+    "#FBB66B",
+    "#6BB0FB",
+    "#B66BFB",
+    "#6BFBB6",
+    "#FFFDEB",
+]
+
+scrollbar_thumb = '#0A0B14'
+split = '#BAB9B3'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#1A1B32'
+inactive_tab_edge = '#0A0B14'
+
+[colors.tab_bar.active_tab]
+bg_color = '#CD5790'
+fg_color = '#1A1B32'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#1A1B32'
+fg_color = '#BAB9B3'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#6BFBB6'
+fg_color = '#1A1B32'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#1A1B32'
+fg_color = '#BAB9B3'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#6BFBB6'
+fg_color = '#1A1B32'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+# [metadata]
+# aliases = []
+# author = 'AEva'
+# name = 'oneiroi melatonin'
