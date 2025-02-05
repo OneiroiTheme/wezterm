@@ -80,5 +80,5 @@ underline = 'None'
 
 # [metadata]
 # aliases = []
-# author = 'AEva'
-# name = 'oneiroi {{name}}'
+# author = '{{author}}'
+# name = '{{theme}} {{plt}}'
