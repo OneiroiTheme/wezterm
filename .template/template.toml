@@ -1,84 +1,84 @@
 [colors]
-foreground = "{{fg}}"
-background = "{{bg}}"
-cursor_bg = "{{prim}}"
-cursor_border = "{{prim}}"
-cursor_fg = "{{bg}}"
-selection_bg = "{{sel}}"
-# selection_fg = "{{bg}}"
+foreground = "{{tm.foreground}}"
+background = "{{tm.background}}"
+cursor_bg = "{{tm.caret}}"
+cursor_border = "{{tm.caret}}"
+cursor_fg = "{{tm.background}}"
+selection_bg = "{{tm.selection}}"
+selection_fg = "{{tm.foreground}}"
 
 ansi = [
-    "{{bg}}",
-    "{{reds}}",
-    "{{gres}}",
-    "{{yels}}",
-    "{{blus}}",
-    "{{purs}}",
-    "{{aqus}}",
-    "{{fgs}}",
+    "{{ansi.blk}}",
+    "{{ansi.red}}",
+    "{{ansi.grn}}",
+    "{{ansi.yel}}",
+    "{{ansi.blu}}",
+    "{{ansi.mag}}",
+    "{{ansi.cya}}",
+    "{{ansi.wht}}",
 ]
 
 brights = [
-    "{{bgs}}",
-    "{{red}}",
-    "{{gre}}",
-    "{{yel}}",
-    "{{blu}}",
-    "{{pur}}",
-    "{{aqu}}",
-    "{{fg}}",
+    "{{ansi.gra}}",
+    "{{ansi.rrd}}",
+    "{{ansi.ggn}}",
+    "{{ansi.yyl}}",
+    "{{ansi.bbl}}",
+    "{{ansi.mmg}}",
+    "{{ansi.ccy}}",
+    "{{ansi.wwt}}",
 ]
 
-scrollbar_thumb = '{{bg3}}'
-split = '{{fgs}}'
+scrollbar_thumb = '{{tm.selection}}'
+split = '{{tm.invisibles}}'
 
 [colors.indexed]
 
 [colors.tab_bar]
-background = '{{bg}}'
-inactive_tab_edge = '{{bg3}}'
+background = '{{tm.background}}'
+inactive_tab_edge = '{{tm.invisibles}}'
 
 [colors.tab_bar.active_tab]
-bg_color = '{{prims}}'
-fg_color = '{{bg}}'
+bg_color = '{{primary}}'
+fg_color = '{{on-primary}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab]
-bg_color = '{{bg}}'
-fg_color = '{{fgs}}'
+bg_color = '{{tm.background}}'
+fg_color = '{{tm.invisibles}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = '{{seco}}'
-fg_color = '{{bg}}'
+bg_color = '{{secondary}}'
+fg_color = '{{on-secondary}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab]
-bg_color = '{{bg}}'
-fg_color = '{{fgs}}'
+bg_color = '{{tm.background}}'
+fg_color = '{{tm.foreground}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab_hover]
-bg_color = '{{seco}}'
-fg_color = '{{bg}}'
+bg_color = '{{secondary}}'
+fg_color = '{{on-secondary}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
-# [metadata]
-# aliases = []
-# author = '{{author}}'
-# name = '{{theme}} {{plt}}'
+[metadata]
+aliases = []
+author = '{{port.author.name}}'
+name = '{{plt.theme}} {{plt.plt}}'

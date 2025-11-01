@@ -1,4 +1,35 @@
 {
-    "input": "/.template/template.toml",
-    "output": "/{{theme}} {{plt}}.toml"
+    "templates": {
+        "type": "mustache",
+        "input": "/.template/template.toml",
+        "output": "/{{plt.theme}} {{plt.plt}}.toml",
+        "views": [
+            {
+                "type": "plt",
+                "section_name": null
+            },
+            {
+                "type": "pltmeta",
+                "section_name": "plt"
+            },
+            {
+                "type": "port",
+                "section_name": "port"
+            }
+        ]
+    },
+    "port": {
+        "title": "Wezterm",
+        "url": "https://wezfurlong.org/wezterm",
+        "version": "0.0.2"
+    },
+    "author": {
+        "name": "Crystar Z",
+        "email": "crystar.z@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OneiroiTheme/wezterm.git"
+    },
+    "license": "MIT"
 }
